@@ -1,5 +1,7 @@
 package com.food.ordering.system.domain.entity;
 
+import lombok.Data;
+
 import java.util.Objects;
 
 public abstract class BaseEntity<ID> {

@@ -1,0 +1,6 @@
+
+o	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÒ¬Ÿùÿÿÿÿ8èÆ‘Šÿ0
+o
+java:S6204D"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8©ÀÜ«ÿ0
+o
+java:S6204V"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8«ÀÜ«ÿ0

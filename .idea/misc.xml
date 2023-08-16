@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/order-service/order-messaging/pom.xml" />
         <option value="$PROJECT_DIR$/order-service/order-dataaccess/pom.xml" />
         <option value="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" />
+        <option value="$PROJECT_DIR$/paymnent-service/payment-domain/payment-domain-service/pom.xml" />
+        <option value="$PROJECT_DIR$/common/common-dataaccess/pom.xml" />
+        <option value="$PROJECT_DIR$/infrastructure/saga/pom.xml" />
       </list>
     </option>
   </component>
