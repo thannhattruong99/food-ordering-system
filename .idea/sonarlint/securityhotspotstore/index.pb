@@ -119,8 +119,6 @@ Y
 )infrastructure/docker-compomse/common.yml,e/1/e1c430286566ad3cda171e13a843317fc79da3af
 `
 0infrastructure/docker-compomse/kafka_cluster.yml,b/d/bd989e68e12dced234a0ef9e18e57c2776ce267e
-\
-,infrastructure/docker-compomse/zookeeper.yml,7/1/71252fabf9f3a38bec1d8034422f89c8e60d3032
 ]
 -infrastructure/docker-compomse/init_kafka.yml,d/f/df193a2f95e721dd27ce3a9ed8c316baa0cf7135
 È
