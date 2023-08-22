@@ -1,6 +1,7 @@
 package com.food.ordering.system.order.service.domain;
 
 import com.food.ordering.system.order.service.domain.dto.create.CreateOrderCommand;
+import com.food.ordering.system.order.service.domain.dto.create.CreateOrderResponse;
 import com.food.ordering.system.order.service.domain.dto.track.TrackOrderQuery;
 import com.food.ordering.system.order.service.domain.dto.track.TrackOrderResponse;
 import com.food.ordering.system.order.service.domain.ports.input.service.OrderApplicationService;
@@ -14,20 +15,22 @@ import org.springframework.validation.annotation.Validated;
 class OrderApplicationServiceImpl implements OrderApplicationService {
 
     private final OrderCreateCommandHandler orderCreateCommandHandler;
+
     private final OrderTrackCommandHandler orderTrackCommandHandler;
 
-    OrderApplicationServiceImpl(OrderCreateCommandHandler orderCreateCommandHandler, OrderTrackCommandHandler orderTrackCommandHandler) {
+    public OrderApplicationServiceImpl(OrderCreateCommandHandler orderCreateCommandHandler,
+                                       OrderTrackCommandHandler orderTrackCommandHandler) {
         this.orderCreateCommandHandler = orderCreateCommandHandler;
         this.orderTrackCommandHandler = orderTrackCommandHandler;
     }
 
     @Override
-    public CreateOrderCommand createOrder(CreateOrderCommand createOrderCommand) {
-        return null;
+    public CreateOrderResponse createOrder(CreateOrderCommand createOrderCommand) {
+        return orderCreateCommandHandler.createOrder(createOrderCommand);
     }
 
     @Override
     public TrackOrderResponse trackOrder(TrackOrderQuery trackOrderQuery) {
-        return null;
+        return orderTrackCommandHandler.trackOrder(trackOrderQuery);
     }
 }
